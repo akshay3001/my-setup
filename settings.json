@@ -1,26 +1,40 @@
 {
-    "files.autoSave": "afterDelay",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    "window.zoomLevel": 0,
-    "workbench.sideBar.location": "left",
-    "breadcrumbs.enabled": false,
-    "vsicons.projectDetection.disableDetect": true,
-    "C_Cpp.updateChannel": "Insiders",
-    "workbench.colorTheme": "Cobalt2",
-    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 15,
-    "editor.lineHeight": 25,
-    "editor.letterSpacing": 0.5,
-    "files.trimTrailingWhitespace": true,
-    "editor.fontWeight": "400",
-    "prettier.eslintIntegration": true,
-    "editor.cursorStyle": "line",
-    "editor.cursorWidth": 2,
-    "editor.cursorBlinking": "smooth",
-    // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
-    // you'll need to change this to an absolute path on your computer
-    "vscode_custom_css.imports": [
-        "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
-    ],
-    "editor.renderWhitespace": "all",
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.lineHeight": 1.3,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "svg.preview.transparencyGrid": true,
+  "svg.preview.boundingBox": false,
+  "angular.enable-experimental-ivy-prompt": false,
+  "testExplorer.useNativeTesting": true,
+  "testExplorer.gutterDecoration": false,
+  "testExplorer.codeLens": false,
+  "testExplorer.errorDecoration": false,
+  "testExplorer.errorDecorationHover": false,
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Cobalt2"
 }
